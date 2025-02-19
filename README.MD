@@ -8,7 +8,7 @@
 - Funciones para la manipulación de memoria y cadenas de caracteres.
 - Funciones para manejo de listas enlazadas.
 - Uso estricto de `malloc()` y `free()` para evitar fugas de memoria.
-- Incluye ademas, las funciones ft_printf() y get_next_line().
+- **Incluye ademas, las funciones ft_printf() y get_next_line()**.
 
 ## Uso
 
@@ -53,10 +53,10 @@ gcc -Wall -Wextra -Werror main.c -L. -lft -o my_program
 
 ## Notas
 - La biblioteca solo usa funciones permitidas por el reglamento de 42.
-- Se recomienda verificar la correcta liberación de memoria para evitar *memory leaks*.
+- Aunque se ha verificado en todas las funciones, se recomienda verificar la correcta liberación de memoria para evitar *memory leaks* si se usa como parte de otros códigos.
 
 ## Autores
-Este código fue desarrollado como parte del proyecto de la **42 School**.
+Este código fue desarrollado por 'jocuni-p' como parte del proyecto de la escuela **42 Barcelona**.
 
 ---
 
