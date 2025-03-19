@@ -1,62 +1,62 @@
 # Libft
 
-## Descripción
-`libft` es una biblioteca de funciones en C desarrollada como parte del programa de la escuela **42 Barcelona**. Proporciona implementaciones de funciones estándar de la biblioteca de C, así como utilidades adicionales para facilitar el desarrollo de programas.
+## Description
+`libft` is a library of C functions developed as part of the **42 Barcelona** school program. It provides implementations of standard C library functions, as well as additional utilities to facilitate program development.
 
-## Características
-- Implementaciones de funciones de la librería estándar `string.h`, `stdlib.h`, `ctype.h`, etc.
-- Funciones para la manipulación de memoria y cadenas de caracteres.
-- Funciones para manejo de listas enlazadas.
-- Uso estricto de `malloc()` y `free()` para evitar fugas de memoria.
-- **Incluye ademas, las funciones ft_printf() y get_next_line()**.
+## Features
+- Implementations of functions from the standard libraries `string.h`, `stdlib.h`, `ctype.h`, etc.
+- Functions for memory and string manipulation.
+- Functions for linked list management.
+- Strict use of `malloc()` and `free()` to avoid memory leaks.
+- **Also includes the functions ft_printf() and get_next_line().**
 
-## Uso
+## Usage
 
-### **1. Compilación**
-Para compilar la biblioteca y generar `libft.a`, ejecuta:
+### **1. Compilation**
+To compile the library and generate `libft.a`, run:
 
 ```sh
 make
 ```
 
-Para limpiar archivos objeto y la librería:
+To clean object files and the library:
 
 ```sh
 make clean
 make fclean
 ```
 
-### **2. Inclusión en un proyecto**
-Puedes incluir `libft` en tu proyecto de la siguiente manera:
+### **2. Including in a project**
+You can include `libft` in your project as follows:
 
 ```c
 #include "libft.h"
 ```
 
-Para compilar un programa que usa `libft`, ejecuta:
+To compile a program that uses `libft`, run:
 
 ```sh
 gcc -Wall -Wextra -Werror main.c -L. -lft -o my_program
 ```
 
-## Archivos
+## Files
 
-- `libft.h` → Archivo de cabecera con las definiciones de funciones.
-- `ft_*.c` → Implementaciones de las funciones.
-- `Makefile` → Script para compilar la biblioteca.
+- `libft.h` → Header file with function definitions.
+- `ft_*.c` → Function implementations.
+- `Makefile` → Script to compile the library.
 
-## Funcionalidades Principales
-- **Manipulación de memoria**: `ft_memset`, `ft_memcpy`, `ft_memmove`, `ft_bzero`, `ft_calloc`.
-- **Manipulación de cadenas**: `ft_strlen`, `ft_strcpy`, `ft_strcat`, `ft_strdup`, `ft_substr`, `ft_split`.
-- **Conversión de datos**: `ft_atoi`, `ft_itoa`.
-- **Manejo de listas enlazadas**: `ft_lstnew`, `ft_lstadd_front`, `ft_lstsize`, `ft_lstclear`.
+## Main Functionalities
+- **Memory manipulation**: `ft_memset`, `ft_memcpy`, `ft_memmove`, `ft_bzero`, `ft_calloc`.
+- **String manipulation**: `ft_strlen`, `ft_strcpy`, `ft_strcat`, `ft_strdup`, `ft_substr`, `ft_split`.
+- **Data conversion**: `ft_atoi`, `ft_itoa`.
+- **Linked list management**: `ft_lstnew`, `ft_lstadd_front`, `ft_lstsize`, `ft_lstclear`.
 
-## Notas
-- La biblioteca solo usa funciones permitidas por el reglamento de 42.
-- Aunque se ha verificado en todas las funciones, se recomienda verificar la correcta liberación de memoria para evitar *memory leaks* si se usa como parte de otros códigos.
+## Notes
+- The library only uses functions allowed by the 42 regulations.
+- Although all functions have been tested, it is recommended to verify proper memory release to avoid *memory leaks* when used as part of other code.
 
-## Autores
-Este código fue desarrollado por 'jocuni-p' como parte del proyecto de la escuela **42 Barcelona**.
+## Authors
+This code was developed by 'jocuni-p' as part of the **42 Barcelona** school project.
 
 ---
 

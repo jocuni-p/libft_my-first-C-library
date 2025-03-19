@@ -6,7 +6,7 @@
 #    By: jocuni-p <jocuni-p@student.42barcelona.com +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/05 16:15:05 by jocuni-p          #+#    #+#              #
-#    Updated: 2025/02/19 12:28:33 by jocuni-p         ###   ########.fr        #
+#    Updated: 2025/03/19 17:29:04 by jocuni-p         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,7 @@ DARK_GREEN 	=	\033[1m\033[38;2;75;179;82m
 #===============COMMANDS===============#
 
 CC = cc
-CFLAGS = -Wall -Werror -Wextra -I. -fPIC
+CFLAGS = -Wall -Werror -Wextra -I. #-fPIC
 #Muchos sistemas modernos (como Linux) generan ejecutables con PIE para mejorar 
 #la seguridad, -fPIC es necesario para que las bibliotecas estáticas (.a) y 
 #dinámicas (.so) sean compatibles con PIE. Sin -fPIC, los archivos objeto 
