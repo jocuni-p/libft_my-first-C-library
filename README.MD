@@ -33,9 +33,11 @@ You can include `libft` in your project as follows:
 #include "libft.h"
 ```
 
-To compile a program that uses `libft`, run:
+To compile a program that uses `libft` run:
 
 ```sh
+gcc -Wall -Werror -Wextra my_main.c my_files.c libft/libft.a
+
 gcc -Wall -Wextra -Werror main.c -L. -lft -o my_program
 ```
 
